@@ -37,9 +37,3 @@ public class matrixOparater {
 
 }
 
-// int At [][] = transpose(matrixA);
-    //  System.out.println("-----------------------------------");     
-    // int Bt [][] = transpose(matrixB);
-    // displayMatrix(multiply(matrixA, Bt));
-    // System.out.println("-----------------------------------");  
-    // displayMatrix(multiply(Bt, At));
