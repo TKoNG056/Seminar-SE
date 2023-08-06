@@ -38,8 +38,11 @@ public class Integrate {
         return sum;
     }
     
-    public void printX(){
-        System.out.println("X");
+    public void printZ(){
+        System.out.println("Z");
+    }
+    public void sayhi(){
+        System.out.println("Hiiii");
     }
     public static void main(String args[]) {
         FofX f = (x) ->  x*x*x;
