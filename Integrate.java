@@ -22,6 +22,7 @@ public class Integrate {
         return sum;
     }
 
+
     static double integrate2(FofX f, double a, double b, int interval) {
         double sum = 0;
         double d = b-a;
@@ -36,7 +37,10 @@ public class Integrate {
         }
         return sum;
     }
-
+    
+    public void printx(){
+        System.out.println("X");
+    }
     public static void main(String args[]) {
         FofX f = (x) ->  x*x*x;
         // FofX f = (x) ->  x*x;
