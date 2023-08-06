@@ -30,9 +30,8 @@ public class Integrate12 {
         double factor = interval*(interval+1)/2;
         for(int i = 0; i < interval; i++) {
             double dxi = d*(interval-i)/factor;
-            sum+=f.eval(xi)*dxi;          // left point
-            // sum+=f.eval(xi+dxi/2)*dxi;      // right point
-            // sum+=f.eval(xi+dxi)*dxi;      // mid point
+            
+            sum+=f.eval(xi+dxi)*dxi;      // mid point
             xi+=dxi;
         }
         return sum;
